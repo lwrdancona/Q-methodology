@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.1.4" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">Q-sort</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false) (4) -->
+     <item id="shuffleCards">true</item>
+
+     <!-- access code required (true|false) (5) -->
+     <item id="loginrequired">false</item>
+     <item id="clearCachePassword">cleareqmobilecache</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- Use login script -->
+     <item id="useLogInScript">false</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">false</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">false</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <label>Project you were involved with</label>
+        <input type="select" required="true">Provincie Zuid-Holland: HOV/R-Net in stedelijk netwerk Leiden - Katwijk;Smart Mobility Hub Amsterdam;Renovatie hoofdrioolgemaal Slauerhofflaan</input>
+
+        <label>Role </label>
+        <note>State your role or function in the project, eg. contract manager </note>
+        <input type="text" required="true" maxlength="50" ></input>
+
+        <label>Please provide three possible 20-minute time slots before November 12th when you are available for a short follow-up call to discuss your reasoning. Please also indicate your preferred contact number.</label>
+        <input type="textarea" required="true"></input>
+
+        <label>Is there anything else you want to share? </label>
+        <input type="textarea" required="false"></input>
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
