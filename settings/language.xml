@@ -76,5 +76,5 @@ Gradually go through each step of the Q-sort. Carefully read each statement and 
         <item id="transferHead">Submit Data</item>
         <item id="transferText">You've finished the survey. Please submit your data now.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you very much for your collaboration. If you are interested in my research findings, please send me an email, and if you have time, please let me know how you experienced this Q-sort. {br}{br}You can now close your browser window.</item>   
+        <item id="transferOk">Thank you very much for your collaboration. If you are interested in my research findings, please send me an email at luuk.d.ancona@haskoning.com and if you have time, please let me know how you experienced this Q-sort. {br}{br}You can now close your browser window.</item>   
    </language>
