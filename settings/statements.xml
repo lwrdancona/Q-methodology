@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-   <statements version="1.0" htmlParse="false">
-     <statement id="1">It was usually clear which element of the project a scope change decision was about.</statement>
-     <statement id="2">Scope change discussions often mixed technical, financial and planning issues, making it unclear what the decision was really about.</statement>
-     <statement id="3">It was clear who had the authority to make final decisions on proposed scope changes. </statement>
-   </statements>
+<statements version="1.0" htmlParse="false">
+  <statement id="1">It was usually clear which element of the project a scope change decision was about.</statement>
+  <statement id="2">Scope change discussions often mixed technical, financial and planning issues, making it unclear what the decision was really about.</statement>
+  <statement id="3">It was clear who had the authority to make final decisions on proposed scope changes.</statement>
+  <statement id="4">Decisions about scope changes were often made by whoever happened to be most involved, rather than by the formally responsible party.</statement>
+  <statement id="5">Agreements on who decides about what were consistently followed.</statement>
+  <statement id="6">Scope change decisions were systematically documented, including the reasons and approvals.</statement>
+  <statement id="7">Scope change decisions were prepared collaboratively, integrating the knowledge of each of the parties involved evenly.</statement>
+  <statement id="8">Contractors were sometimes only pseudo-involved in scope change decisions, having limited actual influence.</statement>
+  <statement id="9">The collaborative scope change process was documented and contextualized.</statement>
+  <statement id="10">The project team generally reached consensus about what fell inside or outside the agreed scope.</statement>
+  <statement id="11">Scope changes followed a structured sequence—initiation, evaluation, assessment, decision, and implementation.</statement>
+  <statement id="12">Scope changes that evolved organically, without strict go/no-go decisions, were often more efficient and productive.</statement>
+  <statement id="13">It was often unclear who raised a change, when, and why.</statement>
+  <statement id="14">Change proposals were reviewed early to avoid uncontrolled development and duplicate assessment work.</statement>
+  <statement id="15">Assessments of scope changes resulted in clear, updated documents such as revised risk registers or cost estimates.</statement>
+  <statement id="16">Approval and escalation outcomes regarding scope changes were clearly recorded before implementation.</statement>
+  <statement id="17">Every approved scope change was systematically implemented into the relevant bouwteam documents.</statement>
+  <statement id="18">At all times, the project team knew which version of the contract documents was most recent.</statement>
+  <statement id="19">The short bouwteam period made it difficult to balance formal documentation with informal discussions about scope changes.</statement>
+  <statement id="20">During price formation, cost pressures often influenced how scope changes were framed or justified.</statement>
+  <statement id="21">Ambiguity in earlier bouwteam decisions creates accountability issues during execution.</statement>
+  <statement id="22">Combining responsibility for design and construction within one party reduces coordination and interface risks.</statement>
+  <statement id="23">Combining responsibility for design and construction within one party increases that party’s exposure to uncertainty and risk.</statement>
+  <statement id="24">In the realization phase, formal lines of authority leave limited space to maintain the open consultation that characterized the bouwteam.</statement>
+  <statement id="25">When it is unclear who initiated a change during the bouwteam—or when and why—it becomes difficult to determine responsibilities later on.</statement>
+  <statement id="26">Without formal approval of bouwteam decisions, it becomes difficult to hold parties accountable once the realization phase begins.</statement>
+  <statement id="27">Implementation of bouwteam scope changes often starts before formal approval, making them hard to trace after transition.</statement>
+  <statement id="28">At the transition from bouwteam to realization, client and contractor interests diverge: the client seeks certainty, while the contractor resists liability for incomplete bouwteam results.</statement>
+  <statement id="29">Not all bouwteam results are formally included in the realization contract; some are deliberately left out to keep flexibility or limit risk.</statement>
+  <statement id="30">Price and liability negotiations at the transition from bouwteam to realization frequently reopen earlier bouwteam agreements.</statement>
+  <statement id="31">A tool that links requirements and scope would help prevent scope drift in bouwteam projects.</statement>
+  <statement id="32">A change register that documents every change and its implications for the contract documents would improve traceability across phases.</statement>
+  <statement id="33">A shared knowledge repository would strengthen inter-organizational learning and accountability in bouwteam projects.</statement>
+  <statement id="34">A mechanism that translates collaborative bouwteam decisions into verifiable records that remain valid once realization begins would reduce disputes.</statement>
+  <statement id="35">Digital traceability systems improve accountability but can make collaboration overly formal.</statement>
+  <statement id="36">Setting clear moments to freeze the design would help create structure for the transition to realization.</statement>
+  <statement id="37">Effective scope change tools depend more on behavioral discipline and ownership than on new software.</statement>
+  <statement id="38">Overly formal procedures for transferring bouwteam agreements to realization can damage trust and openness.</statement>
+  <statement id="39">Central oversight of documentation by the client improves traceability but weakens joint ownership of decisions.</statement>
+</statements>
