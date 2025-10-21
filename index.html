@@ -41,14 +41,22 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
     
-    <script>const firebaseConfig = {
-  apiKey: "AIzaSyDT6J6Xi6rfZm1urNh1gIx9JUJ42aOg-VI",
-  authDomain: "bouwteam-scope-change-5fdc8.firebaseapp.com",
-  projectId: "bouwteam-scope-change-5fdc8",
-  storageBucket: "bouwteam-scope-change-5fdc8.firebasestorage.app",
-  messagingSenderId: "21390440863",
-  appId: "1:21390440863:web:f0c7a3af824fde660c25aa"
-};
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDT6J6Xi6rfZm1urNh1gIx9JUJ42aOg-VI",
+    authDomain: "bouwteam-scope-change-5fdc8.firebaseapp.com",
+    databaseURL: "https://bouwteam-scope-change-5fdc8-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "bouwteam-scope-change-5fdc8",
+    storageBucket: "bouwteam-scope-change-5fdc8.appspot.com",
+    messagingSenderId: "21390440863",
+    appId: "1:21390440863:web:f0c7a3af824fde660c25aa"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.auth().signInAnonymously().catch(console.error);
+  firebase.auth().onAuthStateChanged(u => u && console.log("Anon UID:", u.uid));
+  var rootRef = firebase.database().ref();
+</script>
 
   firebase.initializeApp(firebaseConfig);  var rootRef = firebase.database().ref();  </script>;
     
