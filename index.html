@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html
   xmlns:ng="http://angularjs.org"
   id="ng-app"
@@ -10,7 +9,6 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <meta http-equiv="cache-control" content="no-cache" /> -->
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -18,62 +16,63 @@
     <meta http-equiv="Expires" content="0">
     <title>Easy HtmlQ</title>
 
+    <!-- libs -->
     <script src="src/jquery.min.js" type="text/javascript"></script>
     <script src="src/jquery-ui.min.js" type="text/javascript"></script>
-    <script
-      src="src/jquery.ui.touch-punch.min.js"
-      type="text/javascript"
-    ></script>
+    <script src="src/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
     <script src="src/jquery-dateFormat.min.js" type="text/javascript"></script>
     <script src="src/bootstrap.min.js" type="text/javascript"></script>
     <script src="src/angular.min.js" type="text/javascript"></script>
     <script src="src/angular-ui-router.min.js" type="text/javascript"></script>
-    <script
-      src="src/ui-bootstrap-custom-tpls.min.js"
-      type="text/javascript"
-    ></script>
+    <script src="src/ui-bootstrap-custom-tpls.min.js" type="text/javascript"></script>
     <script src="src/xml2json.min.js" type="text/javascript"></script>
     <script src="src/jsonpath.js" type="text/javascript"></script>
     <script src="src/underscore-min.js" type="text/javascript"></script>
-    
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
-    
-<script>
-  const firebaseConfig = {
-    apiKey: "AIzaSyDT6J6Xi6rfZm1urNh1gIx9JUJ42aOg-VI",
-    authDomain: "bouwteam-scope-change-5fdc8.firebaseapp.com",
-    databaseURL: "https://bouwteam-scope-change-5fdc8-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "bouwteam-scope-change-5fdc8",
-    storageBucket: "bouwteam-scope-change-5fdc8.appspot.com",
-    messagingSenderId: "21390440863",
-    appId: "1:21390440863:web:f0c7a3af824fde660c25aa"
-  };
 
-  firebase.initializeApp(firebaseConfig);
-  firebase.auth().signInAnonymously().catch(console.error);
-  firebase.auth().onAuthStateChanged(u => u && console.log("Anon UID:", u.uid));
-  var rootRef = firebase.database().ref();
-</script>
+    <!-- Firebase v8 SDK (consistent met Easy-HTMLQ) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 
-  firebase.initializeApp(firebaseConfig);  var rootRef = firebase.database().ref();  </script>;
-    
+    <!-- Firebase init (juiste project + RTDB URL + anon auth) -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDT6J6Xi6rfZm1urNh1gIx9JUJ42aOg-VI",
+        authDomain: "bouwteam-scope-change-5fdc8.firebaseapp.com",
+        databaseURL: "https://bouwteam-scope-change-5fdc8-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "bouwteam-scope-change-5fdc8",
+        storageBucket: "bouwteam-scope-change-5fdc8.appspot.com",
+        messagingSenderId: "21390440863",
+        appId: "1:21390440863:web:f0c7a3af824fde660c25aa"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+
+      // Voor rules: ".write": "auth.uid !== null"
+      firebase.auth().signInAnonymously().catch(function (e) {
+        console.error("Anonymous auth failed:", e);
+      });
+      firebase.auth().onAuthStateChanged(function (u) {
+        if (u && u.uid) console.log("Anon UID:", u.uid);
+      });
+
+      // Sommige HTMLQ-builds verwachten een rootRef
+      var rootRef = firebase.database().ref();
+    </script>
+
+    <!-- Easy-HTMLQ app -->
     <script src="src/htmlq.js" type="text/javascript"></script>
 
+    <!-- styles -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="stylesheets/htmlq.css" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="src/html5shiv.min.js"></script>
       <script src="src/es5-shim.min.js"></script>
