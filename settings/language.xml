@@ -4,9 +4,9 @@
 ;
 
         <!-- misc -->
-        <item id="btnContinue">Continue...</item>
-        <item id="btnclose">Close</item>
-        <item id="btnHelp">Help me!</item>
+        <item id="btnContinue">Doorgaan...</item>
+        <item id="btnclose">Sluiten</item>
+        <item id="btnHelp">Help!</item>
         <item id="btnAgreement">Agree</item>
         <item id="btnNeutral">Neutral</item>
         <item id="btnDisagreement">Disagree</item>
