@@ -7,73 +7,73 @@
         <item id="btnContinue">Doorgaan...</item>
         <item id="btnclose">Sluiten</item>
         <item id="btnHelp">Help!</item>
-        <item id="btnAgreement">Agree</item>
-        <item id="btnNeutral">Neutral</item>
-        <item id="btnDisagreement">Disagree</item>
-        <item id="btnTransfer">Submit data</item>
-        <item id="btnExit">Exit</item>
-        <item id="selectItem">Please select...</item>
+        <item id="btnAgreement">Eens</item>
+        <item id="btnNeutral">Neutraal</item>
+        <item id="btnDisagreement">Oneens</item>
+        <item id="btnTransfer">Gegevens verzenden</item>
+        <item id="btnExit">Afsluiten</item>
+        <item id="selectItem">Maak een keuze...</item>
         
         <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
-        <item id="leaveSiteWarning">Your answers will be lost.</item>
+        <item id="leaveSiteWarning">Uw antwoorden gaan verloren.</item>
 
         <!-- HtmlQ only: In-App Back Button -->
-        <item id="backButton">Back</item>
-        <item id="fillInRequiredFields">Please fill in all required fields</item>
+        <item id="backButton">Terug</item>
+        <item id="fillInRequiredFields">Vul alle verplichte velden in</item>
 
         <!-- errors -->
-        <item id="errorHead">Error!</item>
-        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+        <item id="errorHead">Fout!</item>
+        <item id="errorWindowTooSmall">Maximaliseer uw browservenster om deze applicatie te gebruiken.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Welcome!</item>
-        <item id="welcomeText">This is a Q-sort about scope changes in bouwteams and its consequences during realization. {br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey. </item>
+        <item id="welcomeHead">Welkom!</item>
+        <item id="welcomeText">Dit is een Q-sort over scopewijzigingen in bouwteams en de gevolgen daarvan tijdens de realisatie. {br}{br}{b}** Belangrijke informatie **{/b}{br}Voor deze vragenlijst hebt u zoveel mogelijk schermruimte nodig!{br}{br}Indien nodig, {b}MAXIMALISEER{/b} het venster van uw browser, {b}{i}herlaad{/i}{/b} deze webpagina en klik op de knop “Doorgaan...” om te starten.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
-        <item id="loginHead">Access Code</item>
-        <item id="loginText">Please enter the access code for this survey.</item>
-        <item id="loginFormHeader">Access Code</item>
-        <item id="loginPartIdText">Your name or survey id number</item>
-        <item id="loginNoInput">Please enter the access code.</item>
-        <item id="loginInvalidInput">Access code invalid</item>
-        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+        <item id="loginHead">Toegangscode</item>
+        <item id="loginText">Voer de toegangscode voor deze vragenlijst in.</item>
+        <item id="loginFormHeader">Toegangscode</item>
+        <item id="loginPartIdText">Uw naam of onderzoeks-ID</item>
+        <item id="loginNoInput">Voer de toegangscode in.</item>
+        <item id="loginInvalidInput">Ongeldige toegangscode</item>
+        <item id="loginNoConnection">Verbindingsfout met de server. Probeer het opnieuw.</item>
 
         <!-- introduction (leave blank to skip popup) -->
-        <item id="introHead">Introduction</item>
-        <item id="introText">Thank you in advance for helping me out with this research for my Master Thesis for the TU Delft. This survey should take you about 30 minutes after which your credentials and your availability for a short 20-min validation interview will be asked. 
+        <item id="introHead">Introductie</item>
+        <item id="introText">Alvast hartelijk dank voor uw hulp bij dit onderzoek voor mijn masterthesis aan de TU Delft. Het invullen van deze vragenlijst duurt ongeveer 30 minuten. Aansluitend wordt gevraagd naar uw gegevens en uw beschikbaarheid voor een kort validatie-interview van 20 minuten. 
 {br}{br}
-This study is about the scope change process in bouwteams and its consequences for realization under either UAV-gc or UAV in which liabilities and responsibilities differ significantly from the bouwteam phase. To investigate the bouwteam process and its consequences during realisation, a Q-method is performed. The goal is to find shared perspectives among experts in the field of interest, not resulting in factual knowledge, but in relational and subjective perspectives that will form the basis for the development of a tool to improve scope change control in bouwteam projects. 
+Dit onderzoek gaat over het scopewijzigingsproces in bouwteams en de gevolgen tijdens de realisatie onder UAV-gc of UAV, waarin aansprakelijkheden en verantwoordelijkheden aanzienlijk verschillen van de bouwteamfase. Om het bouwteamproces en de gevolgen tijdens de realisatie te onderzoeken, wordt een Q-methode toegepast. Het doel is om gedeelde perspectieven onder experts in het relevante vakgebied te vinden; het resultaat is dus geen feitelijke kennis, maar relationele en subjectieve perspectieven die de basis vormen voor de ontwikkeling van een hulpmiddel om scopewijzigingen in bouwteamprojecten beter te beheersen. 
 {br}{br}
-{b}IMPORTANT{/b}. Open the file {i}Q-sort: Essential Definitions{/i} in your {b}email{/b}. If you have a second screen available, leave the document open on that screen at all times throughout the Q-sort and consult this document whenever stumbling upon one of the {i}Essential Definitions{/i}. If you don't have a second screen available, either print out the page, or try to continuously go back to the file whenever stumbling upon one of the {i}Essential Definitions{/i}. If you have a really pressing question while filling in the Q-sort, feel free to call me at +31 6 27 41 38 34.  
+{b}BELANGRIJK{/b}. Open het bestand {i}Q-sort: Essentiële definities{/i} in uw {b}e-mail{/b}. Als u een tweede scherm hebt, laat dit document dan gedurende de hele Q-sort open en raadpleeg het wanneer u een van de {i}Essentiële definities{/i} tegenkomt. Hebt u geen tweede scherm, print de pagina dan uit of navigeer telkens terug naar het bestand wanneer u een {i}Essentiële definitie{/i} nodig hebt. Als u tijdens het invullen een dringende vraag hebt, bel me gerust op +31 6 27 41 38 34.  
 {br}{br}
-Gradually go through each step of the Q-sort. Carefully read each statement and take your time for sorting them.</item>
+Doorloop elke stap van de Q-sort rustig. Lees iedere stelling zorgvuldig en neem de tijd voor het sorteren.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
-        <item id="step1Head">Step 1 of 5</item>
-        <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for statements you tend to agree with, and a pile for the rest (neutral).{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom right corner.{br}{br}{b}IMPORTANT{/b} the study investigates scope changes {b}during the bouwteam{/b}. This means that when a statement mentions {i}a scope change{/i} it is about a scope change {i}during the bouwteam{/i}.</item>
+        <item id="step1Head">Stap 1 van 5</item>
+        <item id="step1Text">Lees de onderstaande stellingen aandachtig en verdeel ze in drie stapels: een stapel met stellingen waar u het eerder {b}oneens{/b} mee bent, een stapel met stellingen waar u het eerder {b}eens{/b} mee bent, en een stapel voor de rest ({b}neutraal{/b}).{br}{br}U kunt de kaartjes naar één van de drie stapels slepen of op uw toetsenbord de toetsen {b}1, 2, 3{/b} indrukken. U kunt later nog wijzigingen aanbrengen.{br}{br}Wilt u deze instructie nogmaals lezen, klik dan op de helpknop rechtsonder.{br}{br}{b}BELANGRIJK{/b}: het onderzoek gaat over scopewijzigingen {b}tijdens het bouwteam{/b}. Dat betekent dat wanneer in een stelling {i}een scopewijziging{/i} wordt genoemd, dit gaat over een scopewijziging {i}tijdens het bouwteam{/i}.</item>
 
         <!-- step2: sorting (leave blank to skip popup) -->
-        <item id="step2Head">Step 2 of 5</item>
-        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on the right side of the score sheet (where 1 = I agree slightly and 4 = I agree very very much, this very important).{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Don't worry about the colors of the columns. If, for example, you have more statements you disagree with than the number of red boxes in the grid, feel free to fill grey (or even green!) boxes. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the cards from the "NEUTRAL"-pile and arrange them in the remaining open boxes of the grid until it is {b}completely filled{/b} - there are 39 statements for 39 boxes.{br}{br}{b}PLEASE NOTE{/b} the {b}height in the columns does not matter{/b} and that {b}only the final grid matters{/b}. You can switch cards in whatever way you like, and you don't have to worry about which pile the card came from. </item>
-        <item id="step2CondOfInstruc">Give condition of instruction here</item>
-        <item id="step2TextSizeLabel">Text</item>
+        <item id="step2Head">Stap 2 van 5</item>
+        <item id="step2Text">Neem de kaartjes uit de “{b}EENS{/b}”-stapel en plaats ze aan de rechterkant van het scoreblad (waar 1 = ik ben het een beetje eens en 4 = ik ben het zeer, zeer eens; dit is erg belangrijk).{br}{br}Neem vervolgens de kaartjes uit de “{b}ONEENS{/b}”-stapel en plaats ze aan de linkerkant van het scoreblad. Maak u geen zorgen over de kleuren van de kolommen. Als u bijvoorbeeld meer stellingen hebt waarmee u het oneens bent dan het aantal rode vakken in het raster, mag u gerust grijze (of zelfs groene!) vakken vullen. Volg deze procedure voor alle kaartjes uit de “EENS”- en “ONEENS”-stapels.{br}{br}Neem tot slot de kaartjes uit de “{b}NEUTRAAL{/b}”-stapel en vul hiermee de resterende open vakken van het raster totdat dit {b}volledig gevuld{/b} is – er zijn 39 stellingen voor 39 vakken.{br}{br}{b}LET OP{/b}: de {b}hoogte binnen de kolommen doet er niet toe{/b}; {b}alleen het uiteindelijke raster is bepalend{/b}. U mag kaartjes wisselen zoals u wilt; het maakt niet uit uit welke stapel een kaartje oorspronkelijk kwam. </item>
+        <item id="step2CondOfInstruc">Vul hier de instructieconditie in</item>
+        <item id="step2TextSizeLabel">Tekst</item>
 
         <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-        <item id="step3Head">Step 3 of 5</item>
-        <item id="step3Text">Quick Check! Now that you have placed all cards on the score sheet, please go over your distribution one more time and swap card positions cards if desired.</item>
-        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+        <item id="step3Head">Stap 3 van 5</item>
+        <item id="step3Text">Snelle controle! Nu u alle kaartjes op het scoreblad hebt geplaatst, loop uw verdeling nog even na en wissel zo nodig kaartposities.</item>
+        <item id="step3CondOfInstruc">Vul hier de instructieconditie in</item>
 
         <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-        <item id="step4Head">Step 4 of 5</item>
-        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".</item>
+        <item id="step4Head">Stap 4 van 5</item>
+        <item id="step4Text">Leg kort uit waarom u het meest eens of het meest oneens bent met de onderstaande stellingen die u op “+4” of “−4” hebt geplaatst.</item>
 
         <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
-        <item id="step5Head">Step 5 of 5</item>
-        <item id="step5Text">Finally, please answer the following questions regarding your background and your availability for a short follow-up interview.</item>
+        <item id="step5Head">Stap 5 van 5</item>
+        <item id="step5Text">Beantwoord tot slot de volgende vragen over uw achtergrond en uw beschikbaarheid voor een kort vervolginterview.</item>
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-        <item id="transferHead">Submit Data</item>
-        <item id="transferText">You've finished the survey. Please submit your data now.</item>
-        <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you very much for your collaboration. If you are interested in my research findings, please send me an email at luuk.d.ancona@haskoning.com and if you have time, please let me know how you experienced this Q-sort. {br}{br}You can now close your browser window.</item>   
+        <item id="transferHead">Gegevens verzenden</item>
+        <item id="transferText">U hebt de vragenlijst afgerond. Verstuur uw gegevens nu.</item>
+        <item id="transferFailed">Verzenden mislukt. Probeer het opnieuw.</item>
+        <item id="transferOk">Hartelijk dank voor uw medewerking. Als u geïnteresseerd bent in mijn onderzoeksresultaten, stuur dan een e-mail naar luuk.d.ancona@haskoning.com en laat me, als u tijd heeft, weten hoe u deze Q-sort heeft ervaren. {br}{br}U kunt dit browservenster nu sluiten.</item>   
    </language>
