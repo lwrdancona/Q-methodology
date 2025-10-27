@@ -44,17 +44,17 @@
      <!-- optionele attributen: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
 
-        <label>Voor welke partij voerde u uw werkzaamheden voornamelijk uit?</label>
-        <input type="select" required="true">Opdrachtgever;Opdrachtnemer</input>
-
         <label>Project waaraan u heeft meegewerkt</label>
         <input type="select" required="true">Project R-Net busbaan Leiden – Katwijk;Smart Mobility Hub Amsterdam;Renovatie hoofdrioolgemaal Slauerhofflaan</input>
 
+        <label>Voor welke partij voerde u uw werkzaamheden voornamelijk uit?</label>
+        <input type="select" required="true">Opdrachtgever;Opdrachtnemer</input>
+        
         <label>Rol / functie (IPM-rol)</label>
         <note>Kies de optie die uw rol of functie het beste beschrijft.</note>
         <input type="select" required="true">Contract Manager;Project Manager;Ontwerpleider;Technisch Adviseur</input>
 
-        <label>Geef drie mogelijke tijdslots van 20 minuten vóór 12 november waarop u beschikbaar bent voor een kort vervolggesprek om uw overwegingen toe te lichten. Vermeld ook uw voorkeurstelefoonnummer.</label>
+        <label>Geef drie mogelijke tijdslots van 20 minuten tussen het moment van inleveren en 18 november waarop u beschikbaar bent voor een kort vervolggesprek om uw overwegingen toe te lichten. Vermeld ook uw voorkeurstelefoonnummer.</label>
         <input type="textarea" required="true"></input>
 
         <label>Is er verder nog iets dat u wilt delen?</label>
