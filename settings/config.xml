@@ -52,7 +52,7 @@
         
         <label>Rol / functie (IPM-rol)</label>
         <note>Kies de optie die uw rol of functie het beste beschrijft.</note>
-        <input type="select" required="true">Contract Manager;Project Manager;Ontwerpleider;Technisch Adviseur</input>
+        <input type="select" required="true">Contract Manager;Project Manager;Ontwerpleider;Technisch Adviseur;Toezichthouder;Omgevingsmanager</input>
 
         <label>Geef drie mogelijke tijdslots van 20 minuten tussen het moment van inleveren en 18 november waarop u beschikbaar bent voor een kort vervolggesprek om uw overwegingen toe te lichten. Vermeld ook uw voorkeurstelefoonnummer.</label>
         <input type="textarea" required="true"></input>
