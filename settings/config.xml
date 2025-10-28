@@ -44,6 +44,9 @@
      <!-- optionele attributen: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
 
+        <label>Voor en achternaam (alleen ter verificatie van inzending, resultaten blijven anoniem)</label>
+        <input type="textarea" required="true"></input>
+        
         <label>Project waaraan u heeft meegewerkt</label>
         <input type="select" required="true">Project R-Net busbaan Leiden – Katwijk;Smart Mobility Hub Amsterdam;Renovatie hoofdrioolgemaal Slauerhofflaan;Julianasluiscomplex</input>
 
