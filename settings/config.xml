@@ -57,7 +57,7 @@
         <note>Kies de optie die uw rol of functie het beste beschrijft.</note>
         <input type="select" required="true">Contract Manager;Project Manager;Ontwerpleider;Technisch Adviseur;Toezichthouder;Omgevingsmanager</input>
 
-        <label>Geef drie mogelijke tijdslots van 20 minuten tussen het moment van inleveren en 18 november waarop u beschikbaar bent voor een kort vervolggesprek om uw overwegingen toe te lichten. Vermeld ook uw voorkeurstelefoonnummer.</label>
+        <label>Geef drie mogelijke tijdslots van 20 minuten tussen 10 en 18 november waarop u beschikbaar bent voor een kort vervolggesprek om uw overwegingen toe te lichten. U ontvangt hiervoor een MS Teams uitnodiging via de mail.</label>
         <input type="textarea" required="true"></input>
 
         <label>Is er verder nog iets dat u wilt delen?</label>
