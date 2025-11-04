@@ -48,7 +48,7 @@
         <input type="textarea" required="true"></input>
         
         <label>Project waaraan u heeft meegewerkt</label>
-        <input type="select" required="true">Project R-Net busbaan Leiden – Katwijk;Smart Mobility Hub Amsterdam;Renovatie hoofdrioolgemaal Slauerhofflaan;Julianasluiscomplex</input>
+        <input type="select" required="true">Project R-Net busbaan Leiden – Katwijk;Groot onderhoud Afvalwaterriool Zuid - Aalst;Renovatie hoofdrioolgemaal Slauerhofflaan;Julianasluiscomplex</input>
 
         <label>Voor welke partij voerde u uw werkzaamheden voornamelijk uit?</label>
         <input type="select" required="true">Opdrachtgever;Opdrachtnemer</input>
